@@ -56,6 +56,11 @@ section { padding: 34px 0; border-top: 1px solid var(--line); }
 section h2 { font-size: 22px; margin-bottom: 14px; }
 section p { color: #334155; margin-bottom: 12px; }
 
+/* About — narrower reading column, airier lines */
+#about h2 { margin-bottom: 16px; }
+#about p { max-width: 640px; line-height: 1.75; margin-bottom: 14px; }
+#about p:last-child { margin-bottom: 0; }
+
 /* Project cards — to add a project, copy one .project-card block in index.html */
 .project-card {
   background: var(--card); border: 1px solid var(--line); border-radius: 12px;
