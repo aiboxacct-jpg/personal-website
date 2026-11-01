@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Test Title — Matt Myrtle</title>
+<meta name="description" content="I'm testing the notes/blog on my personal website.">
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="../index.html"><span class="monogram sm">MM</span> Matt Myrtle</a>
+    <nav class="main">
+      <a href="../index.html">Home</a>
+      <a href="../notes.html" class="active">Notes</a>
+      <a href="../resume.html">Resume</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <article>
+    <div class="page-head">
+      <p><a href="../notes.html">← All notes</a></p>
+      <h1>Test Title</h1>
+      <p>November 1, 2026</p>
+    </div>
+
+    <section style="border-top:none; padding-top:18px;">
+      <p>I'm testing the notes /blog on my personal website.</p>
+    </section>
+  </article>
+</main>
+
+<footer class="site">
+  <div class="wrap">
+    <div class="contact-row">
+      <a class="btn linkedin-link" href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a>
+      <a class="btn" href="mailto:matthewmyrtle@icloud.com">matthewmyrtle@icloud.com</a>
+      <a class="btn" href="tel:+13102519374">310-251-9374</a>
+    </div>
+    <p class="fine">© 2026 Matt Myrtle</p>
+  </div>
+</footer>
+
+<script>
+// LINKEDIN_URL — Matt's LinkedIn profile (from his resume). To change it, edit this one line;
+// it is applied to every LinkedIn button on this page (elements with class "linkedin-link").
+const LINKEDIN_URL = "https://www.linkedin.com/in/mattmyrtle/";
+document.querySelectorAll(".linkedin-link").forEach(a => { a.href = LINKEDIN_URL; });
+</script>
+</body>
+</html>
